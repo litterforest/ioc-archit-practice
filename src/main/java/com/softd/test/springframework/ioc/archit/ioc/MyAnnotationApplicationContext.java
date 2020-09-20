@@ -26,6 +26,12 @@ public class MyAnnotationApplicationContext {
         return doCreateBean(beanId);
     }
 
+    /**
+     * 创建bean对象，没有就返回null，不抛出异常
+     *
+     * @param beanId
+     * @return
+     */
     private Object doCreateBean(String beanId) {
         // 包扫描
         List<Class<?>> allClassByPackageName = null;
