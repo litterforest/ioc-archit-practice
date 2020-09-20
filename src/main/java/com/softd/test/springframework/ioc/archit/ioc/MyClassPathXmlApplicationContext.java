@@ -1,4 +1,4 @@
-package com.softd.test.springframework.ioc.archit.xml;
+package com.softd.test.springframework.ioc.archit.ioc;
 
 import com.softd.test.springframework.ioc.archit.service.UserService;
 import org.dom4j.Document;

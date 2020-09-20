@@ -1,5 +1,6 @@
 package com.softd.test.springframework.ioc.archit.service.impl;
 
+import com.softd.test.springframework.ioc.archit.annotation.MyComponent;
 import com.softd.test.springframework.ioc.archit.service.UserService;
 
 /**
@@ -8,6 +9,7 @@ import com.softd.test.springframework.ioc.archit.service.UserService;
  * @author cobee
  * @since 2020-09-20
  */
+@MyComponent("userService")
 public class UserServiceImpl implements UserService {
     @Override
     public String getUser(Long userId) {
